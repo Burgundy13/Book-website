@@ -82,11 +82,6 @@ img {
 	position: relative;
 }
 
-.hero.blog {
-	background: url('../images/blog/blog-main.jpg') no-repeat center center/cover;
-	height: 50vh;
-}
-
 .hero * {
 	z-index: 1;
 }
@@ -279,6 +274,38 @@ img {
 .footer .social {
 	display: flex;
 	gap: 10px;
+}
+
+/*** Page Blog ***/
+
+.hero.blog {
+	background: url('../images/blog/blog-main.jpg') no-repeat center center/cover;
+	height: 50vh;
+}
+
+/*** Page Blog ***/
+
+.post {
+	padding: 50px 30px;
+}
+
+.post h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.post .meta {
+	margin-bottom: 30px;
+}
+
+.post img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto 30px;
 }
 
 /*** Media Query***/
