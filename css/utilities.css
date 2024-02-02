@@ -56,6 +56,10 @@
 	height: 100%;
 }
 
+.flex-items > div {
+	flex: 33%;
+}
+
 .flex-columns.flex-reverse .row {
 	flex-direction: row-reverse;
 }
