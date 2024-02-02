@@ -22,19 +22,40 @@
 	opacity: 0.9;
 }
 
-.btn-primary {
+.btn-primary,
+.bg-primary {
 	background-color: #28a745;
 	color: #fff;
 }
-.btn-secondary {
+.btn-secondary,
+.bg-secondary {
 	background-color: #0284d0;
 	color: #fff;
 }
-.btn-light {
+.btn-light,
+.bg-light {
 	background-color: #f4f4f4;
 	color: #333;
 }
-.btn-dark {
+.btn-dark,
+.bg-dark {
 	background-color: #333;
 	color: #fff;
+}
+
+.btn-outline {
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.flex-items {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 100%;
+}
+
+.flex-items > div {
+	padding: 20px;
 }
